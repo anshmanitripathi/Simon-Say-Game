@@ -10,14 +10,14 @@ let btns = ["red", "yellow", "purple", "green"];
 
 let h2 = document.querySelector("h2");
 
-document.addEventListener("click", function(){
+document.addEventListener("click" || "touch", function(){
     if(started == false){
         console.log("Game Started.");
         started = true;
 
         levelUp();
     }
-});
+}); 
 
 let play = document.querySelector("#play");
 
