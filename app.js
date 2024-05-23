@@ -26,12 +26,12 @@ function highest(level){
         highScore = level;
     }
 
+
     play.innerText = `High Score is ${highScore}`;
     setTimeout(function(){
         play.innerText = "Lets Play";
     }, 3000);
 }
-
 
 function gameFlash(btn){
     btn.classList.add("flash");
